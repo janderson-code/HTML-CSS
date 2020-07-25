@@ -1,2 +1,2 @@
 # HTML-CSS
-Repositorio para projetos de teste HTMl /CSS/JAVA
+Repositorio para projetos de teste HTML/CSS/JAVA
