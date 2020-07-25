@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    height:100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load{
+    background-position: 0;
+    top:50%;
+    left:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+}
+.spin{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 50vh;
+    border: 5px solid  #00000000;
+    border-top: 5px solid white;
+    animation: loading 2s linear infinite;
+    
+
+
+}
+.loading{
+    position:absolute;
+    color: white;
+    font-family: sans-serif;
+}
+@keyframes loading{
+    100%{
+        transform: rotate(360deg);
+    }
+}
